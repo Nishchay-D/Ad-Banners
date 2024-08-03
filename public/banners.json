@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Unlock Your Lead Potentials",
+    "description": "Experience AI driven lead generation",
+    "cta": "Get Started Now",
+    "image": "/images/logo1.png",
+    "background": "/images/adb1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Lead Generation Made Easy",
+    "description": "Harness the power of AI for your business",
+    "cta": "Explore",
+    "image": "/images/logo2.jpg",
+    "background": "/images/adb2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Lead Generation Magic",
+    "description": "Boost your sales with AI leads",
+    "cta": "Check it Out",
+    "image": "/images/logo3.jpg",
+    "background": "/images/adb3.jpg"
+  }
+]
