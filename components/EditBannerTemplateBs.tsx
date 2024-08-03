@@ -64,6 +64,7 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
       }}
     >
       <h3 style={{ margin: "0 0 20px", color: "#FAF9F6" }}>Edit Banner</h3>
+      <p style={{color: "#FAF9F6"}}>Title</p>
       <input
         type="text"
         name="title"
@@ -79,6 +80,7 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
           fontSize: "1em",
         }}
       />
+      <p style={{color: "#FAF9F6"}}>Description</p>
       <textarea
         name="description"
         value={editedBanner.description}
@@ -94,6 +96,7 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
           fontSize: "1em",
         }}
       />
+      <p style={{color: "#FAF9F6"}}>Button</p>
       <input
         type="text"
         name="cta"
@@ -109,20 +112,7 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
           fontSize: "1em",
         }}
       />
-      <input
-        type="color"
-        name="background"
-        value={editedBanner.background}
-        onChange={handleChange}
-        style={{
-          width: "100%",
-          padding: "12px",
-          marginBottom: "15px",
-          borderRadius: "8px",
-          border: "1px solid #ddd",
-          fontSize: "1em",
-        }}
-      />
+      <p style={{color: "#FAF9F6"}}>Images</p>
       <input
         type="file"
         accept="image/*"
