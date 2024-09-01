@@ -54,7 +54,7 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
         bottom: 0,
         left: 0,
         right: 0,
-        backgroundImage: 'linear-gradient(to bottom, #676767 , black, #676767)',
+        backgroundImage: "url('../public/images/editbgi1')",
         boxShadow: "0 -4px 12px rgba(0, 0, 0, 0.2)",
         padding: "30px",
         borderTopLeftRadius: "12px",
