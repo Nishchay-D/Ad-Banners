@@ -54,7 +54,7 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
         bottom: 0,
         left: 0,
         right: 0,
-        backgroundImage: "url('../public/images/editbgi1')",
+        backgroundImage: "url('../public/images/editbgi')",
         boxShadow: "0 -4px 12px rgba(0, 0, 0, 0.2)",
         padding: "30px",
         borderTopLeftRadius: "12px",
