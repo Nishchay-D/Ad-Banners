@@ -54,7 +54,9 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
         bottom: 0,
         left: 0,
         right: 0,
-        backgroundImage: "url('../public/images/editbgi')",
+        backgroundImage: "url('/images/editbgibatr.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
         boxShadow: "0 -4px 12px rgba(0, 0, 0, 0.2)",
         padding: "30px",
         borderTopLeftRadius: "12px",
@@ -130,7 +132,7 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
           onClick={handleSave}
           style={{
             padding: "10px 25px",
-            background: "#4CAF50",
+            background: "#1b2d48",
             color: "#fff",
             border: "none",
             borderRadius: "8px",
@@ -146,7 +148,7 @@ const EditBannerTemplateBs: React.FC<EditBannerTemplateBsProps> = ({
           onClick={onCancel}
           style={{
             padding: "10px 25px",
-            background: "#f44336",
+            background: "#303237",
             color: "#fff",
             border: "none",
             borderRadius: "8px",
